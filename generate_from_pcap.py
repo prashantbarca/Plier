@@ -7,6 +7,7 @@
 """
 
 """
+import pdb
 import sys
 import pyshark
 import numpy as np
@@ -25,10 +26,11 @@ def conv(string):
     return tmpstr.decode("utf-8", "ignore")
 
 # pcap = pcap.pcap('/home/prashant/Downloads/setpoint.pcap')
-def get_array(pcap_file, proto):
+def get_array(pcap_file):
     pcapa = pcap.pcap(pcap_file)
 
     for ts, pkt in pcapa:
+        pdb.set_trace()
         try:
             ether = Ethernet(pkt)
             ip = ether.data
@@ -45,6 +47,5 @@ def get_array(pcap_file, proto):
             tcp = ip.data
         print tcp.data.encode("hex")
         
-proto = sys.argv[2]
 pcap_file = sys.argv[1]
-get_array(pcap_file, proto)
+get_array(pcap_file)
