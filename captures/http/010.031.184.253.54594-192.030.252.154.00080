@@ -1,0 +1,72 @@
+GET / HTTP/1.1
+Host: krathore.me
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en,en-US;q=0.8,ja;q=0.5,ru;q=0.3
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Fri, 05 Jan 2018 17:07:34 GMT
+Cache-Control: max-age=0
+
+GET /styles.css HTTP/1.1
+Host: krathore.me
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en,en-US;q=0.8,ja;q=0.5,ru;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://krathore.me/
+DNT: 1
+Connection: keep-alive
+If-Modified-Since: Fri, 05 Jan 2018 17:07:34 GMT
+Cache-Control: max-age=0
+
+GET /public/face.jpg HTTP/1.1
+Host: krathore.me
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: en,en-US;q=0.8,ja;q=0.5,ru;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://krathore.me/
+DNT: 1
+Connection: keep-alive
+If-Modified-Since: Fri, 05 Jan 2018 17:07:30 GMT
+Cache-Control: max-age=0
+
+GET / HTTP/1.1
+Host: krathore.me
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en,en-US;q=0.8,ja;q=0.5,ru;q=0.3
+Accept-Encoding: gzip, deflate
+DNT: 1
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Fri, 05 Jan 2018 17:07:34 GMT
+Cache-Control: max-age=0
+
+GET /styles.css HTTP/1.1
+Host: krathore.me
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en,en-US;q=0.8,ja;q=0.5,ru;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://krathore.me/
+DNT: 1
+Connection: keep-alive
+If-Modified-Since: Fri, 05 Jan 2018 17:07:34 GMT
+Cache-Control: max-age=0
+
+GET /public/face.jpg HTTP/1.1
+Host: krathore.me
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept: */*
+Accept-Language: en,en-US;q=0.8,ja;q=0.5,ru;q=0.3
+Accept-Encoding: gzip, deflate
+Referer: http://krathore.me/
+DNT: 1
+Connection: keep-alive
+If-Modified-Since: Fri, 05 Jan 2018 17:07:30 GMT
+Cache-Control: max-age=0
+
