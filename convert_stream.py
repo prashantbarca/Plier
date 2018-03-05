@@ -38,18 +38,12 @@ def get_array_i(pcap_file, proto):
     return arr
 
 # pcap = pcap.pcap('/home/prashant/Downloads/setpoint.pcap')
-def get_array(pcap_file, proto):
+def get_test_array(pcap_file, proto):
     labels = []
-    arr = get_array_i(pcap_file, proto)
-    print arr
     arra = []
     pcapa = pcap.pcap(pcap_file)
 
-    i = 0
     for ts, pkt in pcapa:
-        i = i + 1
-        if i not in arr:
-            continue
         try:
             ether = Ethernet(pkt)
             ip = ether.data
@@ -68,9 +62,39 @@ def get_array(pcap_file, proto):
         #tmparr = []
         arra.append(conv(tcp.data))
         labels.append(proto)
-        rando = os.urandom(100)
-        arra.append(conv(rando))
-        labels.append("none")
+    return (arra, labels)
+
+
+def get_array(pcap_file, proto):
+    labels = []
+    arr = get_array_i(pcap_file, proto)
+    arra = []
+    pcapa = pcap.pcap(pcap_file)
+
+    i = 0
+    for ts, pkt in pcapa:
+        i = i + 1
+        if i not in arr:
+            continue
+        try:
+            ether = Ethernet(pkt)
+            ip = ether.data
+            if isinstance(ip, str):
+                ip = IP(ether.data)
+        except Exception as e:
+            try:
+                ip = IP(pkt)
+            except:
+                continue
+        tcp = ip.data
+        if isinstance(tcp, str):
+            print tcp.encode("hex")
+            tcp = TCP(tcp)
+        else:
+            print str(tcp).encode("hex")
+        #tmparr = []
+        arra.append(conv(tcp.data))
+        labels.append(proto)
     return (arra, labels)
 
 #print get_array("captures/mqtt_packets_tcpdump.pcap", "MQTT")
