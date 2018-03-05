@@ -17,7 +17,11 @@ from dpkt.tcp import TCP
 from dpkt.http import Request
 from dpkt.http import Response
 
-
+def conv(string):
+    tmpstr = ""
+    for char in string:
+        tmpstr = tmpstr + hex(ord(char)) + " "
+    return tmpstr.decode("utf-8", "ignore")
 
 def get_array_i(pcap_file, proto):
     arr = []
@@ -60,13 +64,10 @@ def get_array(pcap_file, proto):
         try:
             tmpstr = ""
             #tmparr = []
-            for char in tcp.data:
-                tmpstr = tmpstr + hex(ord(char)) + " "
-                #tmparr.append(ord(char))
-            #arra.append(tcp.data.decode("utf-8", "ignore"))
-            arra.append(tmpstr.decode("utf-8", "ignore"))
-            labels.append("http")
-            arra.append(os.urandom(100).decode("utf-8", "ignore"))
+            arra.append(conv(tcp.data))
+            labels.append(proto)
+            rando = os.urandom(100)
+            arra.append(conv(rando))
             labels.append("none")
             #arra.append(tmparr)
             #print arr
