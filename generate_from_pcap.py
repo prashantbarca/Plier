@@ -21,9 +21,9 @@ from dpkt.http import Response
 
 # pcap = pcap.pcap('/home/prashant/Downloads/setpoint.pcap')
 def get_array(pkt):
-    pdb.set_trace()
-    if pkt.highest_layer == 'MQTT':
-        print(pkt.tcp._all_fields['tcp.pdu.size'].all_fields[0].raw_value)
+
+    if pkt.highest_layer == 'http' or pkt.highest_layer == 'HTTP':
+        print(pkt.tcp.payload)
         
 pcap_file = sys.argv[1]
 cap = pyshark.FileCapture(pcap_file)
