@@ -19,33 +19,13 @@ from dpkt.tcp import TCP
 from dpkt.http import Request
 from dpkt.http import Response
 
-def conv(string):
-    tmpstr = ""
-    for char in string:
-        tmpstr = tmpstr + hex(ord(char)) + " "
-    return tmpstr.decode("utf-8", "ignore")
-
 # pcap = pcap.pcap('/home/prashant/Downloads/setpoint.pcap')
-def get_array(pcap_file):
-    pcapa = pcap.pcap(pcap_file)
-
-    for ts, pkt in pcapa:
-        pdb.set_trace()
-        try:
-            ether = Ethernet(pkt)
-            ip = ether.data
-            if isinstance(ip, str):
-                ip = IP(ether.data)
-        except Exception as e:
-            try:
-                ip = IP(pkt)
-            except:
-                continue
-        if isinstance(ip.data, str):
-            tcp = TCP(ip.data)
-        else:
-            tcp = ip.data
-        print tcp.data.encode("hex")
+def get_array(pkt):
+    pdb.set_trace()
+    if pkt.highest_layer == 'MQTT':
+        print(pkt.tcp._all_fields['tcp.pdu.size'].all_fields[0].raw_value)
         
 pcap_file = sys.argv[1]
-get_array(pcap_file)
+cap = pyshark.FileCapture(pcap_file)
+#get_array(pcap_file)
+cap.apply_on_packets(get_array)

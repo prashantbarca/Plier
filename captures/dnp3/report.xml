@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.4.5</version>
+    <build_environment>
+      <compiler>6.3.1 (6.3.1 20170306)</compiler>
+      <CPPFLAGS>-pthread -I/usr/local/include -I/usr/local/include -D_FORTIFY_SOURCE=2 -DUTC_OFFSET=+0000 </CPPFLAGS>
+      <CFLAGS>-g   -pthread -march=x86-64 -mtune=generic -O3 -pipe -fstack-protector-strong -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -pthread -march=x86-64 -mtune=generic -O3 -pipe -fstack-protector-strong -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Wstrict-null-sentinel -Weffc++ </CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -L/usr/local/lib -Wl,-O1,--sort-common,--as-needed,-z,relro</LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lbz2 -lpixman-1 -lexpat  -lsqlite3 -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2017-03-07T08:06:37</compilation_date>
+      <library name="boost" version="106300"/>
+      <library name="sqlite" version="3.17.0" source_id="2017-02-13 16:02:40 ada05cfa86ad7f5645450ac7a2a21c9aa6e57d2c"/>
+      <git commit="tcpflow-1.4.0beta1-167-g7d8133c-dirty"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>4.14.12-1-ARCH</os_release>
+      <os_version>#1 SMP PREEMPT Fri Jan 5 18:19:34 UTC 2018</os_version>
+      <host>crimsonsky</host>
+      <arch>x86_64</arch>
+      <command_line>tcpflow -o dnp3 -a -l dnp3.pcap</command_line>
+      <uid>1000</uid>
+      <start_time>2018-03-05T02:58:52Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>dnp3/010.000.000.008.02803-010.000.000.003.20000c1</filename>
+      <filesize>48</filesize>
+      <tcpflow startime='2004-10-11T09:50:23.045756Z' endtime='2004-10-11T09:50:48.521527Z' src_ipn='10.0.0.8' dst_ipn='10.0.0.3' mac_daddr='00:02:b3:ce:70:51' mac_saddr='00:50:04:93:70:67' packets='6' srcport='2803' dstport='20000' family='2' />
+      <hashdigest type='MD5'>6a9d1edd5a36673dd33f30bef0dba8ed</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.003.20000-010.000.000.008.02803c1</filename>
+      <filesize>17</filesize>
+      <tcpflow startime='2004-10-11T09:50:23.045930Z' endtime='2004-10-11T09:50:48.677871Z' src_ipn='10.0.0.3' dst_ipn='10.0.0.8' mac_daddr='00:50:04:93:70:67' mac_saddr='00:02:b3:ce:70:51' packets='6' srcport='20000' dstport='2803' family='2' />
+      <hashdigest type='MD5'>61bc0f535c9c8f701223eef43ea71d58</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.009.01084-010.000.000.003.20000c1</filename>
+      <filesize>48</filesize>
+      <tcpflow startime='2004-10-11T12:46:17.295531Z' endtime='2004-10-11T12:46:25.001370Z' src_ipn='10.0.0.9' dst_ipn='10.0.0.3' mac_daddr='00:02:b3:ce:70:51' mac_saddr='00:50:04:93:70:67' packets='6' srcport='1084' dstport='20000' family='2' />
+      <hashdigest type='MD5'>1e2a3460f2f18866be56abde2ce7e2ce</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.003.20000-010.000.000.009.01084c1</filename>
+      <filesize>17</filesize>
+      <tcpflow startime='2004-10-11T12:46:17.295730Z' endtime='2004-10-11T12:46:25.107430Z' src_ipn='10.0.0.3' dst_ipn='10.0.0.9' mac_daddr='00:50:04:93:70:67' mac_saddr='00:02:b3:ce:70:51' packets='6' srcport='20000' dstport='1084' family='2' />
+      <hashdigest type='MD5'>290cedfa04d18d0d362752f4f50e469c</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.003.20000-010.000.000.008.01184c1</filename>
+      <filesize>51</filesize>
+      <tcpflow startime='2004-10-11T12:30:55.234627Z' endtime='2004-10-11T12:31:07.537969Z' src_ipn='10.0.0.3' dst_ipn='10.0.0.8' mac_daddr='00:50:04:93:70:67' mac_saddr='00:02:b3:ce:70:51' packets='4' srcport='20000' dstport='1184' family='2' />
+      <hashdigest type='MD5'>e31193dd25b7ebaa2d4c55b9ff46382c</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.008.01184-010.000.000.003.20000c1</filename>
+      <filesize>48</filesize>
+      <tcpflow startime='2004-10-11T12:30:55.234470Z' endtime='2004-10-11T12:31:07.645965Z' src_ipn='10.0.0.8' dst_ipn='10.0.0.3' mac_daddr='00:02:b3:ce:70:51' mac_saddr='00:50:04:93:70:67' packets='7' srcport='1184' dstport='20000' family='2' />
+      <hashdigest type='MD5'>b619562d8087b3ea04daf865d1afd836</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.003.20000-010.000.000.008.01159c1</filename>
+      <filesize>17</filesize>
+      <tcpflow startime='2004-10-11T12:09:07.092859Z' endtime='2004-10-11T12:09:19.487180Z' src_ipn='10.0.0.3' dst_ipn='10.0.0.8' mac_daddr='00:50:04:93:70:67' mac_saddr='00:02:b3:ce:70:51' packets='4' srcport='20000' dstport='1159' family='2' />
+      <hashdigest type='MD5'>1328c8f03c3ec454d335ec2b48279e02</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.008.01159-010.000.000.003.20000c1</filename>
+      <filesize>48</filesize>
+      <tcpflow startime='2004-10-11T12:09:07.092701Z' endtime='2004-10-11T12:09:19.359091Z' src_ipn='10.0.0.8' dst_ipn='10.0.0.3' mac_daddr='00:02:b3:ce:70:51' mac_saddr='00:50:04:93:70:67' packets='5' srcport='1159' dstport='20000' family='2' />
+      <hashdigest type='MD5'>07ccfe3635787fa62ca9cbd491bc2543</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/192.168.066.033.01167-192.168.066.034.20000c1</filename>
+      <filesize>289</filesize>
+      <tcpflow startime='2007-05-03T11:25:58.103372Z' endtime='2007-05-03T11:27:26.246177Z' src_ipn='192.168.66.33' dst_ipn='192.168.66.34' mac_daddr='00:42:15:69:87:25' mac_saddr='00:16:cb:8e:3f:0b' packets='22' srcport='1167' dstport='20000' family='2' />
+      <hashdigest type='MD5'>4d9edd63dd99ab79bc111a0daa35fff9</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.003.20000-010.000.000.008.01086c1</filename>
+      <filesize>258</filesize>
+      <tcpflow startime='2004-10-11T11:16:25.883753Z' endtime='2004-10-11T11:17:36.091024Z' src_ipn='10.0.0.3' dst_ipn='10.0.0.8' mac_daddr='00:50:04:93:70:67' mac_saddr='00:02:b3:ce:70:51' packets='12' srcport='20000' dstport='1086' family='2' />
+      <hashdigest type='MD5'>689384dc209f13d2006a51b84c7c3e58</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.008.01086-010.000.000.003.20000c1</filename>
+      <filesize>215</filesize>
+      <tcpflow startime='2004-10-11T11:16:25.883614Z' endtime='2004-10-11T11:17:36.257809Z' src_ipn='10.0.0.8' dst_ipn='10.0.0.3' mac_daddr='00:02:b3:ce:70:51' mac_saddr='00:50:04:93:70:67' packets='19' srcport='1086' dstport='20000' family='2' />
+      <hashdigest type='MD5'>13fe29f5a1a1557a097f1a166576be41</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.003.20000-010.000.000.008.02789c1</filename>
+      <filesize>51</filesize>
+      <tcpflow startime='2004-10-11T09:38:58.503280Z' endtime='2004-10-11T09:41:01.912093Z' src_ipn='10.0.0.3' dst_ipn='10.0.0.8' mac_daddr='00:50:04:93:70:67' mac_saddr='00:02:b3:ce:70:51' packets='5' srcport='20000' dstport='2789' family='2' />
+      <hashdigest type='MD5'>4e6abff4624381c9583c151bbdcf8b5a</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.008.02789-010.000.000.003.20000c1</filename>
+      <filesize>64</filesize>
+      <tcpflow startime='2004-10-11T09:38:58.503079Z' endtime='2004-10-11T09:41:02.040142Z' src_ipn='10.0.0.8' dst_ipn='10.0.0.3' mac_daddr='00:02:b3:ce:70:51' mac_saddr='00:50:04:93:70:67' packets='8' srcport='2789' dstport='20000' family='2' />
+      <hashdigest type='MD5'>a89e49784b2c358c25a74525ebe78dce</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.003.20000-010.000.000.008.02828c1</filename>
+      <filesize>910</filesize>
+      <tcpflow startime='2004-10-11T10:15:02.255913Z' endtime='2004-10-11T10:17:03.905294Z' src_ipn='10.0.0.3' dst_ipn='10.0.0.8' mac_daddr='00:50:04:93:70:67' mac_saddr='00:02:b3:ce:70:51' packets='26' srcport='20000' dstport='2828' family='2' />
+      <hashdigest type='MD5'>48004177efe914a4bfaa4baaab49f55c</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.009.01080-010.000.000.003.20000c1</filename>
+      <filesize>153</filesize>
+      <tcpflow startime='2004-10-11T10:40:44.006837Z' endtime='2004-10-11T10:47:08.601058Z' src_ipn='10.0.0.9' dst_ipn='10.0.0.3' mac_daddr='00:02:b3:ce:70:51' mac_saddr='00:50:04:93:70:67' packets='24' srcport='1080' dstport='20000' family='2' />
+      <hashdigest type='MD5'>e66e52b2d690cd167014b62ea35f1cd8</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/192.168.066.034.20000-192.168.066.033.01167c1</filename>
+      <filesize>287</filesize>
+      <tcpflow startime='2007-05-03T11:25:58.184068Z' endtime='2007-05-03T11:27:26.086403Z' src_ipn='192.168.66.34' dst_ipn='192.168.66.33' mac_daddr='00:16:cb:8e:3f:0b' mac_saddr='00:42:15:69:87:25' packets='11' srcport='20000' dstport='1167' family='2' />
+      <hashdigest type='MD5'>e6bbf7dbfcd59ed119e110a0cc7ff31b</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.008.02828-010.000.000.003.20000c1</filename>
+      <filesize>229</filesize>
+      <tcpflow startime='2004-10-11T10:15:02.255746Z' endtime='2004-10-11T10:17:04.083555Z' src_ipn='10.0.0.8' dst_ipn='10.0.0.3' mac_daddr='00:02:b3:ce:70:51' mac_saddr='00:50:04:93:70:67' packets='20' srcport='2828' dstport='20000' family='2' />
+      <hashdigest type='MD5'>c0a37f73170ffcde1819006d3439c5b9</hashdigest>
+    </fileobject>
+    <fileobject>
+      <filename>dnp3/010.000.000.003.20000-010.000.000.009.01080c1</filename>
+      <filesize>422</filesize>
+      <tcpflow startime='2004-10-11T10:40:44.007009Z' endtime='2004-10-11T10:47:08.446245Z' src_ipn='10.0.0.3' dst_ipn='10.0.0.9' mac_daddr='00:50:04:93:70:67' mac_saddr='00:02:b3:ce:70:51' packets='21' srcport='20000' dstport='1080' family='2' />
+      <hashdigest type='MD5'>4da8af030f09be11ce156ce6fb733ff1</hashdigest>
+    </fileobject>
+  </configuration>
+  <summary><ssids>
+</ssids>
+</summary>
+  <open_fds_at_end>14</open_fds_at_end>
+  <max_open_flows>14</max_open_flows>
+  <total_flows>18</total_flows>
+  <flow_map_size>14</flow_map_size>
+  <total_packets>212</total_packets>
+  <rusage>
+    <utime>0.039040</utime>
+    <stime>0.003549</stime>
+    <maxrss>15704</maxrss>
+    <minflt>1565</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>0</inblock>
+    <oublock>200</oublock>
+    <clocktime>0.016158</clocktime>
+  </rusage>
+</dfxml>
