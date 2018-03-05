@@ -7,6 +7,7 @@
 """
 
 """
+import sys
 import pyshark
 import numpy as np
 import os
@@ -23,33 +24,11 @@ def conv(string):
         tmpstr = tmpstr + hex(ord(char)) + " "
     return tmpstr.decode("utf-8", "ignore")
 
-def get_array_i(pcap_file, proto):
-    arr = []
-    cap = pyshark.FileCapture(pcap_file)
-    i = 0
-    for pkt in cap:
-        i = i + 1
-        try:
-          #print pkt['MQTT']
-            if pkt[proto]:
-                arr.append(i)
-        except:
-            continue
-    return arr
-
 # pcap = pcap.pcap('/home/prashant/Downloads/setpoint.pcap')
 def get_array(pcap_file, proto):
-    labels = []
-    arr = get_array_i(pcap_file, proto)
-    print arr
-    arra = []
     pcapa = pcap.pcap(pcap_file)
 
-    i = 0
     for ts, pkt in pcapa:
-        i = i + 1
-        if i not in arr:
-            continue
         try:
             ether = Ethernet(pkt)
             ip = ether.data
@@ -64,13 +43,8 @@ def get_array(pcap_file, proto):
             tcp = TCP(ip.data)
         else:
             tcp = ip.data
-        tmpstr = ""
-        #tmparr = []
-        arra.append(conv(tcp.data))
-        labels.append(proto)
-        rando = os.urandom(100)
-        arra.append(conv(rando))
-        labels.append("none")
-    return (arra, labels)
-
-#print get_array("captures/mqtt_packets_tcpdump.pcap", "MQTT")
+        print tcp.data.encode("hex")
+        
+proto = sys.argv[2]
+pcap_file = sys.argv[1]
+get_array(pcap_file, proto)

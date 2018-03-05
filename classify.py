@@ -14,8 +14,10 @@ from sklearn.naive_bayes import MultinomialNB
 np.set_printoptions(threshold='nan')
 
 http_tmp = get_array('setpoint.pcap', 'http')
+mqtt_tmp = get_array('captures/mqtt_packets_tcpdump.pcap', 'MQTT')
+print mqtt_tmp
 http_dataset = http_tmp[0]
-print http_dataset
+#print http_dataset
 http_target = http_tmp[1]
 vect = CountVectorizer(stop_words = None)
 vect.fit(http_dataset)
