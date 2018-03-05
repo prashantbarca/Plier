@@ -1,0 +1,572 @@
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.928908
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.794
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.633,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.764
+                        },
+                        {
+                            "class": "plasmodium (parasite)",
+                            "score": 0.5,
+                            "type_hierarchy": "/microorganism/plasmodium (parasite)"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.53
+                        },
+                        {
+                            "class": "ganglion cell",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/ganglion cell"
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.916
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.91
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_50.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.918896
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.705
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.555,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.689
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.54,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.541
+                        },
+                        {
+                            "class": "spherocyte",
+                            "score": 0.511,
+                            "type_hierarchy": "/cell/spherocyte"
+                        },
+                        {
+                            "class": "plasmodium (parasite)",
+                            "score": 0.5,
+                            "type_hierarchy": "/microorganism/plasmodium (parasite)"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.519
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.844
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.798
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_100.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.923375
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.894
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.571
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.949
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.818
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_71.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.937086
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.713
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.657,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.766
+                        },
+                        {
+                            "class": "ganglion cell",
+                            "score": 0.514,
+                            "type_hierarchy": "/cell/ganglion cell"
+                        },
+                        {
+                            "class": "plasmodium (parasite)",
+                            "score": 0.5,
+                            "type_hierarchy": "/microorganism/plasmodium (parasite)"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.525
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.876
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.861
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_81.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.844268
+                        },
+                        {
+                            "class": "mqtt",
+                            "score": 0.53145
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.671
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.634,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.831
+                        },
+                        {
+                            "class": "adenovirus (virus)",
+                            "score": 0.547,
+                            "type_hierarchy": "/microorganism/adenovirus (virus)"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.672
+                        },
+                        {
+                            "class": "plasmodium (parasite)",
+                            "score": 0.51,
+                            "type_hierarchy": "/microorganism/plasmodium (parasite)"
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.506,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.571
+                        },
+                        {
+                            "class": "ganglion cell",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/ganglion cell"
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.956
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.741
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_76.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.936815
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.803
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.662,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.787
+                        },
+                        {
+                            "class": "plasmodium (parasite)",
+                            "score": 0.544,
+                            "type_hierarchy": "/microorganism/plasmodium (parasite)"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.569
+                        },
+                        {
+                            "class": "ganglion cell",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/ganglion cell"
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.935
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.908
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_113.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.883391
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.846
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.593,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.647
+                        },
+                        {
+                            "class": "plasmodium (parasite)",
+                            "score": 0.5,
+                            "type_hierarchy": "/microorganism/plasmodium (parasite)"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.529
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.919
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.875
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_114.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.903504
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.86
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.582,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.627
+                        },
+                        {
+                            "class": "plasmodium (parasite)",
+                            "score": 0.5,
+                            "type_hierarchy": "/microorganism/plasmodium (parasite)"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.522
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.922
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.9
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_54.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.896507
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.898
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.571
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.906
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.891
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_10.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "dnp",
+                            "score": 0.92744
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "lines",
+                            "score": 0.726
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.674,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.851
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.513,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.566
+                        },
+                        {
+                            "class": "plasmodium (parasite)",
+                            "score": 0.504,
+                            "type_hierarchy": "/microorganism/plasmodium (parasite)"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.523
+                        },
+                        {
+                            "class": "ganglion cell",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/ganglion cell"
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.896
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.894
+                        }
+                    ]
+                }
+            ],
+            "image": "dnp_testing.zip/dnp_72.png"
+        }
+    ],
+    "images_processed": 10,
+    "custom_classes": 3
+}
