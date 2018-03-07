@@ -1,0 +1,744 @@
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.919148
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "chat room",
+                            "score": 0.621,
+                            "type_hierarchy": "/machine/computer/chat room"
+                        },
+                        {
+                            "class": "computer",
+                            "score": 0.621
+                        },
+                        {
+                            "class": "machine",
+                            "score": 0.622
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.586,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.587
+                        },
+                        {
+                            "class": "dialog box",
+                            "score": 0.512,
+                            "type_hierarchy": "/electronic device/video display/window/dialog box"
+                        },
+                        {
+                            "class": "window",
+                            "score": 0.602
+                        },
+                        {
+                            "class": "video display",
+                            "score": 0.602
+                        },
+                        {
+                            "class": "electronic device",
+                            "score": 0.602
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.502,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.516
+                        },
+                        {
+                            "class": "lines",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.598
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.813
+                        },
+                        {
+                            "class": "ultramarine color",
+                            "score": 0.702
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_40.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.920123
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "astrocyte",
+                            "score": 0.625,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.836
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.575,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.626
+                        },
+                        {
+                            "class": "lines",
+                            "score": 0.54
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.527,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.517,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.518
+                        },
+                        {
+                            "class": "chat room",
+                            "score": 0.5,
+                            "type_hierarchy": "/machine/computer/chat room"
+                        },
+                        {
+                            "class": "computer",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "machine",
+                            "score": 0.501
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.827
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.613
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_35.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.921782
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "astrocyte",
+                            "score": 0.647,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.872
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.634,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.68
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.56,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "lines",
+                            "score": 0.554
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.5,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.839
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_9.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.916338
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "astrocyte",
+                            "score": 0.614,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.826
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.577,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.624
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.535,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.535
+                        },
+                        {
+                            "class": "lines",
+                            "score": 0.526
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.525,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "chat room",
+                            "score": 0.5,
+                            "type_hierarchy": "/machine/computer/chat room"
+                        },
+                        {
+                            "class": "computer",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "machine",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.811
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_22.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.915749
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "neutrophil",
+                            "score": 0.632,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.687
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.852
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.609,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "lines",
+                            "score": 0.551
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.537,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.5,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.826
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.521
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_27.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.919226
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "digital clock",
+                            "score": 0.673,
+                            "type_hierarchy": "/measuring instrument/timepiece/clock/digital clock"
+                        },
+                        {
+                            "class": "clock",
+                            "score": 0.673
+                        },
+                        {
+                            "class": "timepiece",
+                            "score": 0.674
+                        },
+                        {
+                            "class": "measuring instrument",
+                            "score": 0.674
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.586,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.589
+                        },
+                        {
+                            "class": "astrocyte",
+                            "score": 0.583,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.754
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.506,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.525
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.599
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.864
+                        },
+                        {
+                            "class": "ultramarine color",
+                            "score": 0.724
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_25.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.916102
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "astrocyte",
+                            "score": 0.649,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.858
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.611,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.659
+                        },
+                        {
+                            "class": "lines",
+                            "score": 0.542
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.522,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.5,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.843
+                        },
+                        {
+                            "class": "pink color",
+                            "score": 0.604
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_26.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.927463
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "astrocyte",
+                            "score": 0.651,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.872
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.646,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.679
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.639,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.64
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.798
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.881
+                        },
+                        {
+                            "class": "ultramarine color",
+                            "score": 0.537
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_31.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.918091
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "astrocyte",
+                            "score": 0.641,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.84
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.602,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.639
+                        },
+                        {
+                            "class": "lines",
+                            "score": 0.572
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.514,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.515
+                        },
+                        {
+                            "class": "chat room",
+                            "score": 0.514,
+                            "type_hierarchy": "/machine/computer/chat room"
+                        },
+                        {
+                            "class": "computer",
+                            "score": 0.514
+                        },
+                        {
+                            "class": "machine",
+                            "score": 0.515
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.5,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.798
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.85
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_57.png"
+        },
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "packets_879190571",
+                    "name": "packets",
+                    "classes": [
+                        {
+                            "class": "http",
+                            "score": 0.922328
+                        }
+                    ]
+                },
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "astrocyte",
+                            "score": 0.611,
+                            "type_hierarchy": "/cell/astrocyte"
+                        },
+                        {
+                            "class": "cell",
+                            "score": 0.84
+                        },
+                        {
+                            "class": "neutrophil",
+                            "score": 0.597,
+                            "type_hierarchy": "/cell/white blood cell/neutrophil"
+                        },
+                        {
+                            "class": "white blood cell",
+                            "score": 0.644
+                        },
+                        {
+                            "class": "lines",
+                            "score": 0.564
+                        },
+                        {
+                            "class": "oligodendrocyte",
+                            "score": 0.509,
+                            "type_hierarchy": "/cell/oligodendrocyte"
+                        },
+                        {
+                            "class": "autoradiograph",
+                            "score": 0.5,
+                            "type_hierarchy": "/radiogram/autoradiograph"
+                        },
+                        {
+                            "class": "radiogram",
+                            "score": 0.5
+                        },
+                        {
+                            "class": "microorganism",
+                            "score": 0.799
+                        },
+                        {
+                            "class": "purple color",
+                            "score": 0.793
+                        }
+                    ]
+                }
+            ],
+            "image": "http_testing.zip/http_13.png"
+        }
+    ],
+    "images_processed": 10,
+    "custom_classes": 3
+}
