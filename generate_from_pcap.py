@@ -21,7 +21,7 @@ from dpkt.http import Response
 
 # pcap = pcap.pcap('/home/prashant/Downloads/setpoint.pcap')
 def get_array(pkt):
-
+    
     if pkt.highest_layer == 'http' or pkt.highest_layer == 'HTTP':
         print(pkt.tcp.payload)
         
